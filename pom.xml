@@ -71,6 +71,12 @@
     		<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
     		<version>${org.springdoc.version}</version>
 		</dependency>
+		<!-- FLYWAY -->
+		<dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 	</dependencies>
 
 	<build>
